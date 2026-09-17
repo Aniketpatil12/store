@@ -10,7 +10,7 @@ public class firstRepetingChar {
         String data = obj.next();
        Character result = data.chars().mapToObj(i ->(char)i).filter(ch -> data.indexOf(ch)!= data.lastIndexOf(ch)).findFirst().orElse(null);
 
-       System.out.print("hello there!");
+       System.out.print("hello there! return content info fount");
        System.out.println(result);
     }
 }
